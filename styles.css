@@ -1,0 +1,7 @@
+
+/* Nav styles */
+nav{   
+    display: flex ;
+    justify-content: space-between;
+    margin: 30px 150px 30px 50px;    
+}
