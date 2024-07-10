@@ -4,17 +4,36 @@
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+    margin:0px;
 }
+
+.font-color{
+    color: #0D1321;
+}
+
+.scnd-color{
+    color: rgba(13, 19, 33, 0.7);
+}
+
+button {
+    font-family: inherit
+  }
+
+input {
+    font-family: inherit
+  }
 
 /* Nav styles */
 nav{   
     display: flex ;
     justify-content: space-between;
-    margin: 30px 150px 30px 50px;    
+    margin: 38px 150px; 
+    align-items: center;   
 }
 
 /* Banner */
 .banner{
+    margin: 0px;
     background-image: url(assets/Hero-bg.png);
 }
 
@@ -22,6 +41,7 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 
 .center{
@@ -33,19 +53,39 @@ nav{
     justify-content: center;
     flex-direction: column;
     border-radius: 10px;
+    padding-bottom: 80px;
 }
 
 .box{
     background-color: white;
     display: flex;
     align-items: center;
-    max-width: 1000px;
+    min-width: 70%;
     margin: 20px;
-    padding: 10px;
+    padding: 48px;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+
+.lrn-mr-btn{
+    background-color: white;
+    color: rgba(13, 19, 33, 0.7);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(13, 19, 33, 0.7);
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .scnd-sctn{
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-width: 80%;
+}
+
+.color-cards{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
 }
