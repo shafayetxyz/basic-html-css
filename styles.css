@@ -5,3 +5,14 @@ nav{
     justify-content: space-between;
     margin: 30px 150px 30px 50px;    
 }
+
+/* Banner */
+.banner{
+    background-image: url(assets/Hero-bg.png);
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
